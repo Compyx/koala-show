@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Usage: koala.sh bitmap vidram colram [bgcolor]
+# Usage: koala.sh <bitmap-file> <vidram-file> <colram-file> [<bgcolor>]
+#    or: koala.sh <koala-file>
 
 PRG=koala-show.prg
 
