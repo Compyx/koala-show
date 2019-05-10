@@ -29,6 +29,9 @@ else
 fi
 
 
+cp -f `dirname "$0"`/koala.s .
+
+
 if [ $# -ge 3 ]; then
 
     64tass --ascii --case-sensitive --m6502 \
